@@ -9,8 +9,6 @@ $(function(){
 		response_compare: "%savings%",
 		error_text: "",
 		callback: function( elem, nums ) {
-			console.log( elem );
-			console.log( nums );
 			if ( typeof( nums.savings ) === 'undefined' ) {
 				$( ".results.vacation" ).html( '0' );
 			}
